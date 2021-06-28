@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WE ARE SENDING YOU AN EMAIL</title>
+    <link rel="stylesheet" href="email.css">
+</head>
+<body>
+    <div class="container">
+        <h2>We're Sending You an Email😃</h2>
+        <form action="/resend" method="post">
+            <input type="email" name="email" id="email" placeholder = "Your Email" required><br>
+        <button class="btn" id="btn">Resend Email</button>
+    </form>
+    </div>
+</body>
+<script>
+    const btn = document.getElementById('btn');
+    const email = document.getElementById("email");
+    
+    btn.addEventListener("click", () => {
+        if (email === null) {
+        console.log("Kya kar rahe ho tum")
+    }else{
+        alert("Email Sent")
+    }
+})
+</script>
+</html>

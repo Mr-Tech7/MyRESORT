@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Royal Resort</title>
+  </head>
+  <body>
+    <header id="header" class=" sticky text-gray-600 body-font">
+      <div
+        class="
+          container
+          mx-auto
+          flex flex-wrap
+          p-5
+          flex-col
+          md:flex-row
+          items-center
+        "
+      >
+        <a
+          class="
+            flex
+            title-font
+            font-medium
+            items-center
+            text-gray-900
+            mb-4
+            md:mb-0
+          "
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
+            ></path>
+          </svg>
+          <span class="ml-3 text-xl">Royal Resort</span>
+        </a>
+        <nav
+          id="nav"
+          class="
+            md:mr-auto
+            md:ml-4
+            md:py-1
+            md:pl-4
+            md:border-l md:border-gray-400
+            flex flex-wrap
+            items-center
+            text-base
+            justify-center
+          "
+        >
+          <a class="mr-5 hover:text-gray-900 active" href="index.html" id="h"
+            >Home</a
+          >
+          <a class="mr-5 hover:text-gray-900" href="/about">About</a>
+          <a class="mr-5 hover:text-gray-900" href="/services">Services</a>
+          <a class="mr-5 hover:text-gray-900" href="#gallery">Gallery</a>
+          <a class="mr-5 hover:text-gray-900" href="/book">Online Bookings</a>
+        </nav>
+        <button
+          class="
+            inline-flex
+            items-center
+            bg-gray-100
+            border-0
+            py-1
+            px-3
+            focus:outline-none
+            hover:bg-gray-200
+            rounded
+            text-base
+            mt-4
+            md:mt-0
+          "
+          onclick="location.href = 'booking.html'"
+        >
+          Book now
+          <svg
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            class="w-4 h-4 ml-1"
+            viewBox="0 0 24 24"
+          >
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </button>
+      </div>
+    </header>
+    <hr />
+
+    <div class="bg-image"></div>
+    <div class="bg-text">
+      <h1>Royal Resort</h1>
+      <p>
+        Royal Resort, a luscious venue based in Patna is perfect for the wedding
+        events. Equipped with world-class facilities, the venue is spacious and
+        comfortable. They offer complete event support for all your nuptial
+        ceremonies and events
+      </p>
+      <button class="btn" onclick="location.href ='about.html'">Read More</button>
+    </div>
+    <section id="#gallery" class="text-gray-600 body-font">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-col text-center w-full mb-20">
+          <h1
+            class="
+              sm:text-3xl
+              text-2xl
+              font-medium
+              title-font
+              mb-4
+              text-gray-900
+            "
+            id="gallery"
+          >
+            Gallery
+          </h1>
+          <hr />
+        </div>
+
+        <div class="flex flex-wrap -m-4">
+          <div class="lg:w-1/3 sm:w-1/2 p-4">
+            <div class="flex relative">
+              <img
+                alt="gallery"
+                class="
+                  absolute
+                  inset-0
+                  w-full
+                  h-full
+                  object-cover object-center
+                "
+                src="rr1.jpg"
+              />
+              <div
+                class="
+                  px-8
+                  py-10
+                  relative
+                  z-10
+                  w-full
+                  border-4 border-gray-200
+                  bg-white
+                  opacity-0
+                  hover:opacity-100
+                "
+              >
+                <h2
+                  class="
+                    tracking-widest
+                    text-sm
+                    title-font
+                    font-medium
+                    text-indigo-500
+                    mb-1
+                  "
+                >
+                  THE SUBTITLE
+                </h2>
+                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                  Royal Resort Office
+                </h1>
+                <p class="leading-relaxed">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus error iusto laboriosam repudiandae eligendi minima doloribus.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-1/3 sm:w-1/2 p-4">
+            <div class="flex relative">
+              <img
+                alt="gallery"
+                class="
+                  absolute
+                  inset-0
+                  w-full
+                  h-full
+                  object-cover object-center
+                "
+                src="rr2.jpg"
+              />
+              <div
+                class="
+                  px-8
+                  py-10
+                  relative
+                  z-10
+                  w-full
+                  border-4 border-gray-200
+                  bg-white
+                  opacity-0
+                  hover:opacity-100
+                "
+              >
+                <h2
+                  class="
+                    tracking-widest
+                    text-sm
+                    title-font
+                    font-medium
+                    text-indigo-500
+                    mb-1
+                  "
+                >
+                  THE SUBTITLE
+                </h2>
+                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                  WeddingHall Stage Area
+                </h1>
+                <p class="leading-relaxed">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa eos repudiandae ad tenetur a tempore qui reprehenderit quis?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-1/3 sm:w-1/2 p-4">
+            <div class="flex relative">
+              <img
+                alt="gallery"
+                class="
+                  absolute
+                  inset-0
+                  w-full
+                  h-full
+                  object-cover object-center
+                "
+                src="rr3.jpg"
+              />
+              <div
+                class="
+                  px-8
+                  py-10
+                  relative
+                  z-10
+                  w-full
+                  border-4 border-gray-200
+                  bg-white
+                  opacity-0
+                  hover:opacity-100
+                "
+              >
+                <h2
+                  class="
+                    tracking-widest
+                    text-sm
+                    title-font
+                    font-medium
+                    text-indigo-500
+                    mb-1
+                  "
+                >
+                  THE SUBTITLE
+                </h2>
+                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                 WeddingHall Sitting Area
+                </h1>
+                <p class="leading-relaxed">
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni culpa tenetur ipsam quo consequuntur possimus dolorum.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-1/3 sm:w-1/2 p-4">
+            <div class="flex relative">
+              <img
+                alt="gallery"
+                class="
+                  absolute
+                  inset-0
+                  w-full
+                  h-full
+                  object-cover object-center
+                "
+                src="rrdj.jpg"
+              />
+              <div
+                class="
+                  px-8
+                  py-10
+                  relative
+                  z-10
+                  w-full
+                  border-4 border-gray-200
+                  bg-white
+                  opacity-0
+                  hover:opacity-100
+                "
+              >
+                <h2
+                  class="
+                    tracking-widest
+                    text-sm
+                    title-font
+                    font-medium
+                    text-indigo-500
+                    mb-1
+                  "
+                >
+                  THE SUBTITLE
+                </h2>
+                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                  DJ Section
+                </h1>
+                <p class="leading-relaxed">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet quam maxime asperiores fugiat nulla nemo nobis.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-1/3 sm:w-1/2 p-4">
+            <div class="flex relative">
+              <img
+                alt="gallery"
+                class="
+                  absolute
+                  inset-0
+                  w-full
+                  h-full
+                  object-cover object-center
+                "
+                src="rr5.jpg"
+              />
+              <div
+                class="
+                  px-8
+                  py-10
+                  relative
+                  z-10
+                  w-full
+                  border-4 border-gray-200
+                  bg-white
+                  opacity-0
+                  hover:opacity-100
+                "
+              >
+                <h2
+                  class="
+                    tracking-widest
+                    text-sm
+                    title-font
+                    font-medium
+                    text-indigo-500
+                    mb-1
+                  "
+                >
+                  THE SUBTITLE
+                </h2>
+                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                  Entrance
+                </h1>
+                <p class="leading-relaxed">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, quia adipisci? Doloribus id quasi error enim!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-1/3 sm:w-1/2 p-4">
+            <div class="flex relative">
+              <img
+                alt="gallery"
+                class="
+                  absolute
+                  inset-0
+                  w-full
+                  h-full
+                  object-cover object-center
+                "
+                src="rr6.jpg"
+              />
+              <div
+                class="
+                  px-8
+                  py-10
+                  relative
+                  z-10
+                  w-full
+                  border-4 border-gray-200
+                  bg-white
+                  opacity-0
+                  hover:opacity-100
+                "
+              >
+                <h2
+                  class="
+                    tracking-widest
+                    text-sm
+                    title-font
+                    font-medium
+                    text-indigo-500
+                    mb-1
+                  "
+                >
+                  THE SUBTITLE
+                </h2>
+                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                  Table Section
+                </h1>
+                <p class="leading-relaxed">
+                  This our table section with sufficient space and starters
+                  counters in the left and fruit counters in the right.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+
+    <h1 class="testinomial">Testinomial</h1>
+    <section class="text-gray-600 body-font">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-wrap -m-4">
+          <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+            <div class="h-full text-center">
+              <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKSabt0iKhifis3OI3LX18VhwgWnUuFVTkj1m7L8FztB21SFBp&s">
+              <p class="leading-relaxed">There are several banquets halls in patna but royal resort is the best banquet hall I ever visit...😁</p>
+              <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+              <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">Aditya Kapoor</h2>
+            </div>
+          </div>
+          <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+            <div class="h-full text-center">
+              <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="data:image/jpeg;base64,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">
+              <p class="leading-relaxed">My freind told me about Royal Resort. And when we visit. There managers are as polite as my freind told and there services are just amazing<span id="emoji2">😍</span>. If you are searching for best banquet hall in patna. Here you are<span id="emoji" aria-label="hamburger"></span></p>
+              <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+              <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">Avinash Singhania</h2>
+            </div>
+          </div>
+          <div class="lg:w-1/3 lg:mb-0 p-4">
+            <div class="h-full text-center">
+              <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz87czeZatjwj2Mm5NTODDLEatFsYhXByiyZEB4cDr0L6zMjw&s">
+              <p class="leading-relaxed">This is the best experience for me to visiting royla resort there service are preety good and all the staff and mangers are very polite😇.</p>
+              <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+              <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">Joye Tribriani</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="text-gray-600 body-font">
+      <div class="bg-gray-100">
+        <div
+          class="
+            container
+            mx-auto
+            py-4
+            px-5
+            flex flex-wrap flex-col
+            sm:flex-row
+          "
+        >
+          <p class="text-gray-500 text-sm text-center sm:text-left">
+            © 2020 RoyalResort —
+            <a
+              href="https://instagram.com/ig_vaibhavsingh"
+              rel="noopener noreferrer"
+              class="text-gray-600 ml-1"
+              target="_blank"
+              >@ig_vaibhavsingh</a
+            >
+          </p>
+          <span
+            class="
+              inline-flex
+              sm:ml-auto
+              sm:mt-0
+              mt-2
+              justify-center
+              sm:justify-start
+            "
+          >
+            <a class="text-gray-500">
+              <svg
+                fill="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-5 h-5"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
+                ></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-500">
+              <svg
+                fill="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-5 h-5"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
+                ></path>
+              </svg>
+            </a>
+            <a
+              href="https://instagram.com/ig_vaibhavsingh"
+              class="ml-3 text-gray-500"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-5 h-5"
+                viewBox="0 0 24 24"
+              >
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path
+                  d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"
+                ></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-500">
+              <svg
+                fill="currentColor"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="0"
+                class="w-5 h-5"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke="none"
+                  d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
+                ></path>
+                <circle cx="4" cy="4" r="2" stroke="none"></circle>
+              </svg>
+            </a>
+          </span>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <!-- <script src="index.js"></script> -->
+  <script>
+    const emoji = document.getElementById('emoji');
+    emoji.innerHTML = String.fromCodePoint(0x1F600)
+  </script>
+</html>

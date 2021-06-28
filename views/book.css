@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: white;
+}
+body{
+    background-color: #000;
+}
+
+.no_display{
+  display: none;
+}
+
+
+@media only screen and (max-width: 375px) {
+  .now{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 84px;
+    margin: 2px 0px;
+  }
+  .glow{
+    font-family: 'Poiret One', cursive;
+  }
+}
+
+
+.glow {
+    font-size: 6rem;
+    letter-spacing: 4px;
+   font-family: Cinzel, cursive;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+    font-family: 'Rochester', cursive;
+  }
+
+.btn {
+    margin: 22px 20px;
+    border: 1px solid;
+    padding: 4px 16px;
+    outline: gray;
+    color: gray;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.btn:hover{
+  border: 1px solid;
+  color: white;
+}
+
+
+/* .bookingDate{
+  margin: -5px;
+  display: inline-block;
+  padding: 33px 0;
+  width: 7%;
+} */
+
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    };
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
